@@ -1,0 +1,17 @@
+name: Build and inspect React App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs.on: ubuntu-22.04
+
+    steps:
+      - name: Checkout the app
+      - uses: actions/checkout@V2
+
+      - name: Hello world
+      - run: echo "Hello World"
