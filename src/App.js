@@ -11,6 +11,7 @@ function App() {
             <div className="message">
               react app ... up and running
             </div>
+            <p>19.2.2025</p>
         </Col>
         <Row>
           <Col>
